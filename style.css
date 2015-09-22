@@ -1,0 +1,24 @@
+body, :root {
+	font-size: 18px;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+#introjumbo {
+	color: #fff;
+	background-color: #222;
+}
+
+@media (min-width: 992px) {
+	#introjumbo {
+		background-image: url("images/cyberport-back.jpg");
+		background-size: cover;
+		background-position: bottom;
+		background-attachment: fixed;
+	}
+}
+
+h1.brand-green {
+	color: #00FF00;
+}
+
+
