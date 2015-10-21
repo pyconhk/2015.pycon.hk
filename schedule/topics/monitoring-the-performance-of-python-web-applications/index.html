@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="PyCON Hong Kong 2015 will be hosted at Cyberport Hong Kong in 7 November 2015.">
+    <meta name="author" content="PyCON Hong Kong 2015">
+    <meta property="og:title" content="Talk - Monitoring the performance of Python web applications. | PyCON Hong Kong 2015" />
+    <meta property="og:url" content="http://2015.pycon.hk/schedule/topic/monitoring-the-performance-of-python-web-applications" />
+    <meta property="og:image" content="http://2015.pycon.hk/speakers/{% speaker-photo" />
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="Monitoring the performance of Python web applications. is one of a Talk of PyCon Hong Kong 2015. PyCon HK (2015.11.07-08) is a annual international python conference in Hong Kong." />
+    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:400,300|Oswald:700' rel='stylesheet' type='text/css'>
+    <title>Talk - Monitoring the performance of Python web applications. | PyCON Hong Kong 2015</title>
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/jumbotron.css" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">PyCON HK 2015</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/about/what-is-pycon">What is PyCon?</a></li>
+                <li><a href="/about/code-of-conducts">Code of Conducts</a></li>
+                <li><a href="/about/staffs">Staffs</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Events <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/schedule">Schedule</a></li>
+                <li><a href="http://bit.ly/pyconhk2015-cfp">Call For Proposals</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sponsors <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/sponsor">PyCON HK 2015 Sponsors</a></li>     
+                <li><a href="/sponsor/prospectus">Sponsorship Prospectus</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Venue <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/venue">Venue Map</a></li>
+                <li><a href="/venue/hotels">Hotels</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Attend <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://pycon-hk-2015.eventbrite.com/">Registration</a></li>
+                <li><a href="http://bit.ly/pyconhk2015-faa">Financial Aid</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-highlight"><a href="https://pycon-hk-2015.eventbrite.com/">Get Ticket</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron dark-sections">
+      <div class="container">
+        <h1><span class="brand-blue">Talk: Monitoring the performance of Python web applications.</span></h1>
+        <h2>Speaker: Graham Dumpleton</h2>
+        <p>Company: Red Hat</p>
+        <p>Language: English (with English Slides)</p>
+        <div class="progress" style="width: 80%;">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="3" style="width: 66%;">
+                Intermediate
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5">
+          <img src="/speakers/graham-dumpleton.jpg" alt="Photo of Graham Dumpleton" class="img-thumbnail">
+        </div>
+        <div class="col-sm-5">
+          <h3>About Speaker</h3>
+                    <p>Graham has been using the Python programming language since the days when the only way to obtain it was as shar files over Usenet news groups. He is the author of mod_wsgi, a module for hosting Python web applications with Apache, as well as the wrapt module, a package designed for creating robust decorators and for monkey patching. Graham is a Fellow of the Python Software Foundation and a member of the Apache Software Foundation.          </p>
+        </div>
+      </div>
+      <div class="row">
+        <h3>About the Topic</h3>
+                  <p>In this talk you will learn about how the performance of Python web applications can be monitored. It will look at traditional approaches for monitoring based on using throughput and response times. It will then illustrate how such an approach to monitoring doesn’t adequately capture some details which are key to properly tuning Python WSGI servers to ensure they are running at their best, and so in turn allowing your Python web application to run at its best.          </p>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; PyCON HK 2015</p>
+      </footer>
+    </div> <!-- /container -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/style.js"></script>
+    <script src="/js/ga.js"></script>
+  </body>
+</html>
+
